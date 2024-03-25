@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.nav h4 {
+    color: white;
+    padding-left: 220px;
+    font-weight: 100;
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 500px;
+
+
+
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+    font-weight: 500;
+    margin: 1px;
+
+}
+
+
+
+
+
+
+.hero a {
+    color: teal;
+    text-decoration: none;
+    margin: 20px;
+    text-shadow: 1px 1px 5px;
+    font-size: 22px;
+
+
+}
+
+.t {
+
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+
+.hero img {
+    height: 50vh;
+    width: 30%;
+}
+
+.hero .im {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.a {
+    background-image: url(/images/back.jpg);
+}
+
+.pro1 img {
+    height: 30vh;
+    width: 38%;
+    margin: 5px;
+    margin-top: 30px;
+
+    margin-bottom: 20px;
+
+}
+
+.pro1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+hr {
+    width: 77%;
+    margin: auto;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.pro2 {
+    margin-left: 10px;
+    display: flex;
+    margin-left: 200px;
+
+
+
+}
+
+.pro2 img {
+    width: 80%;
+    height: 25vh;
+    border: 5px solid white;
+
+
+
+}
+
+
+.a {
+    background-image: url(/images/2.jpg);
+    color: white;
+    margin-bottom: 20px;
+}
+
+.m {
+    font-family: 'Pacifico', cursive;
+    margin-left: 200px;
+    font-size: 25px;
+    margin-bottom: 10px;
+
+}
+
+h4 {
+    font-size: 20px;
+    margin: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.end {
+    font-family: 'Pacifico', cursive;
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.end a {
+    text-decoration: none;
+    color: rgb(180, 0, 180);
+    font-size: 20px;
+    padding-left: 150px;
+
+
+
+
+}
+
+.c {
+    margin-left: 12px;
+    width: 320px;
+}

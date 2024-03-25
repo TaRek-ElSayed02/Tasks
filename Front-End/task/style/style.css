@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  color: white;
+  background-image: url(../images/back.jpg);
+  font-family: "Pacifico", cursive;
+  width: 86.8%;
+  font-size: 50px;
+  padding: 50px 0px 50px 200px;
+}
+.nav h4 {
+  color: white;
+  font-weight: 100;
+  font-family: "Pacifico", cursive;
+  font-size: 50px;
+  display: inline-block;
+  margin-right: 500px;
+}
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 1px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.hero {
+  margin-bottom: 40px;
+}
+.hero .bonbon {
+  margin: 40px 0px 40px 70px;
+}
+.hero .bonbon a {
+  color: teal;
+  text-decoration: none;
+  margin: 20px;
+  text-shadow: 2px 2px 4px;
+  font-size: 24px;
+}
+.hero .imgs {
+  display: flex;
+  justify-content: space-between;
+}
+.hero .imgs img {
+  height: 50vh;
+  width: 30%;
+}
+
+.products {
+  background-image: url(../images/back.jpg);
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+.products .product1 .pro1 {
+  display: flex;
+  justify-content: center;
+}
+.products .product1 .pro1 img {
+  height: 30vh;
+  width: 40%;
+  margin: 10px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  justify-content: space-around;
+}
+.products hr {
+  width: 85%;
+  display: flex;
+  margin-left: 115px;
+  color: white;
+}
+.products .txt {
+  font-family: "Pacifico", cursive;
+  margin-left: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 25px;
+}
+.products .pro2 {
+  display: flex;
+  margin-left: 200px;
+}
+.products .pro2 div img {
+  width: 70%;
+  height: 25vh;
+  border: 5px solid white;
+}
+.products .pro2 div p {
+  font-size: 15px;
+  font-weight: bold;
+}
+.products .pro2 div h4 {
+  font-size: 20px;
+  margin: 10px;
+  font-family: "Pacifico", cursive;
+}
+.products .pro3 {
+  display: flex;
+  justify-content: center;
+}
+.products .pro3 .product3 img {
+  height: 30vh;
+  width: 80%;
+  margin: 10px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  justify-content: space-around;
+  border: 11px solid white;
+}
+.products .pro3 .product3 p {
+  font-size: 15px;
+  font-weight: bold;
+}
+.products .pro3 .product3 h4 {
+  font-size: 20px;
+  margin: 10px;
+  font-family: "Pacifico", cursive;
+}
+
+.end {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  padding-left: 200px;
+}
+.end a {
+  text-decoration: none;
+  color: rgb(180, 0, 180);
+  font-size: 30px;
+  margin-right: 60px;
+  font-family: "Pacifico", cursive;
+  justify-content: space-around;
+}/*# sourceMappingURL=style.css.map */

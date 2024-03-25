@@ -1,0 +1,32 @@
+#defimg{
+    width: 20%;
+    margin-left: 75vh;
+    border: 2px solid black;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 30px;
+}
+
+div.overlayed{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0 ;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+}
+
+div.overlayed .newimg{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
+
+div.overlayed .closebtn{
+    position: absolute;
+    top: 8%;
+    left: 22%;
+    cursor: pointer;
+}

@@ -1,0 +1,177 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+$color: white;
+$font-family: 'Pacifico', cursive;
+$background-image: url(../images/back.jpg);
+
+
+.nav {
+    color: $color;
+    background-image: $background-image;
+    font-family: $font-family;
+    width: 86.8%;
+    font-size: 50px;
+
+    padding: 50px 0px 50px 200px;
+
+    h4 {
+        color: $color;
+
+        font-weight: 100;
+        font-family: $font-family;
+        font-size: 50px;
+        display: inline-block;
+        margin-right: 500px;
+    }
+
+    a {
+        text-decoration: none;
+        color: $color;
+        font-family: Arial, Helvetica, sans-serif;
+
+        margin: 1px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+
+.hero {
+    margin-bottom: 40px;
+
+    .bonbon {
+        margin: 40px 0px 40px 70px;
+
+        a {
+            color: teal;
+            text-decoration: none;
+            margin: 20px;
+            text-shadow: 2px 2px 4px;
+            font-size: 24px;
+        }
+    }
+
+    .imgs {
+        display: flex;
+        justify-content: space-between;
+
+        img {
+            height: 50vh;
+            width: 30%;
+        }
+    }
+}
+
+
+
+.products {
+
+    background-image: $background-image;
+
+    color: $color;
+    margin: 0;
+    padding: 0;
+
+    .product1 {
+        .pro1 {
+            display: flex;
+            justify-content: center;
+
+            img {
+                height: 30vh;
+                width: 40%;
+                margin: 10px;
+                margin-top: 30px;
+                margin-bottom: 20px;
+                justify-content: space-around;
+            }
+        }
+    }
+
+    hr {
+        width: 85%;
+        display: flex;
+        margin-left: 115px;
+        color: $color;
+    }
+
+    .txt {
+        font-family: $font-family;
+        margin-left: 200px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    .pro2 {
+        display: flex;
+        margin-left: 200px;
+
+        div {
+            img {
+                width: 70%;
+                height: 25vh;
+                border: 5px solid $color;
+
+            }
+
+            p {
+                font-size: 15px;
+                font-weight: bold;
+            }
+
+            h4 {
+                font-size: 20px;
+                margin: 10px;
+                font-family: $font-family;
+            }
+
+        }
+    }
+
+    .pro3{
+        display: flex;
+        justify-content: center;
+        .product3{
+
+            img{
+                height: 30vh;
+                width: 80%;
+                margin: 10px;
+                margin-top: 30px;
+                margin-bottom: 20px;
+                justify-content: space-around;
+                border: 11px solid $color;
+            }
+            p{
+                font-size: 15px;
+                font-weight: bold;
+            }
+            h4{
+                font-size: 20px;
+                margin: 10px;
+                font-family: $font-family;
+            }
+        }
+    }
+}
+
+
+
+.end{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    padding-left: 200px;
+    a{
+        text-decoration: none;
+        color: rgb(180, 0, 180);
+        font-size: 30px;
+        margin-right: 60px;
+        font-family: $font-family;
+        justify-content: space-around;
+    }
+}

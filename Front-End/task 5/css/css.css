@@ -1,0 +1,137 @@
+*{
+    margin: 0%;
+}
+
+body{
+    background-color: rgb(103, 132, 122);
+}
+
+/*start of section head*/
+.head ul{
+    background-color: black;
+    list-style: none; 
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 15px;
+   
+    
+}
+
+.head ul li {
+   
+    text-decoration: none;
+    display: inline-block;
+    padding-right: 20px;
+
+
+}
+
+.head ul li a{
+    color: white;
+   /* margin-right: 15px;*/
+   text-decoration: none;
+
+}
+
+.head ul li a:hover{
+    color: red;
+
+
+}
+
+/*end of section head*/
+
+/*Start of hero section*/
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    display: block;
+}
+
+.hero img{
+    width: 93%;
+    height: 200px;
+    justify-content: center;
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.hero h2{
+    font-size:20px;
+    margin-bottom: 30px;
+}
+
+/*End of hero section*/
+
+
+/*start of content section*/
+.content div{
+    width: 170px;
+    height: 160px;
+    background-color: black;
+    margin-left: 20px;
+    border-radius: 8px;
+    
+   
+}
+
+.content div img{
+    width: 95px;
+    height: 70px;
+   margin-left: 37px;   
+   padding-top: 5px;
+}
+
+.content div h4{
+    color: white;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 7px;
+}
+
+.content div h5{
+    color: white;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.content button{
+ margin-left: 50px;
+ border-radius: 8px;
+ 
+}
+
+.content button:hover{
+    color: red;
+}
+
+
+.content div.fstproduct{
+    margin-bottom: 15px;
+    
+}
+.content div.secproduct{
+    margin-bottom: 15px;
+    margin-left: 450px;
+}
+
+.content div.thdproduct{
+    margin-bottom: 15px;
+    margin-left: 900px;
+}
+
+.content div.frthproduct{
+    margin-bottom: 15px;
+    margin-left: 1325px;
+}
+
+
+/*End of content section*/
+
